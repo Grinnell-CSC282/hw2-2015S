@@ -1,0 +1,28 @@
+HW2
+
+Command line:
+	Setting a variable:
+	SET variable
+	SET variable=string
+	SET /A “variable=expression”
+	SET “variable=”
+	SET /P variable=[promptString]
+	SET “
+		Variable: A new or existing environment variable name e.g. _num
+		String: A text string to assign to the variable
+		Expression: Arithmetic expression
+(http://ss64.com/nt/set.html)
+
+Bash:
+	Setting a variable:
+	echo $SHELL (gives you name of current shell you are using)
+	export VARIABLE=value
+	export PATH=$HOME/bin/perl:$PATH (sets the path that the shell
+	would be looking at when it has to execute any program)
+(http://genepath.med.harvard.edu/mw/Bash:HOW_TO:_Set_an_environment_variable_in_the_bash_shell)
+
+C:
+	Getting a variable:
+	The value of an environmental variable can be accessed with the getenv function. This is declared in the header file stdlib.h. 
+	Function: char * getenv (const char *name)
+(http://www.gnu.org/software/libc/manual/html_node/Environment-Access.html)
