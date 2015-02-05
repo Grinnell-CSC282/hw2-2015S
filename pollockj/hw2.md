@@ -36,7 +36,7 @@ A quick discription of environment variables (found
   variable. 
 * `export -n VAR_NAME` will change it back into a shell variable
 
-#####List of Common Environmental and Shell Variables  
+#####List of Common Environmental and Shell Variables    
 This list was copied from
 [here](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps).
 
@@ -56,10 +56,8 @@ and then `~/.profile`
 `~/.bashrc`
   You can define user-specific environemntal variables, available in both
   login and non-login shells, in the `~/.bashrc` file:
-        * `export VAR_NAME=value` - will set the environmental variable.
-        * `source ~/.bashrc` - will make the current session read the file
-        to apply changes. 
-            
-####3. Come up with two or three tasks, similar to those we did for assignment 1, and put notes about them in the tasks directory. (You can include some sample solutions in your file.)
+  * `export VAR_NAME=value` - will set the environmental variable.
+  * `source ~/.bashrc` - will make the current session read the file to apply changes. 
+
 
 
