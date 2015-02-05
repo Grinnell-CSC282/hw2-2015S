@@ -30,6 +30,11 @@ A quick discription of environment variables (found
  SHELL`.
 * `env` - Lets you change the environment that programs run in.
 * `set` - Allows you to read and write variables.
+* `VAR_NAME=value` will set a shell variable.
+  The shell variable is only available in the current session.
+* `export VAR_NAME` will turn the shell variable into an environmental
+  variable. 
+* `export -n VAR_NAME` will change it back into a shell variable
 
 #####List of Common Environmental and Shell Variables  
 This list was copied from
@@ -41,14 +46,8 @@ This list was copied from
 * `PWD` - Current working directory.
 * `OLDPWD` - Previous working directory.
 * `MAIL` - Current user's mailbox.
-* `PATH` - List of directories that the system will check when looking for commands.
+* `PATH` - Directories systems checks for commands.
 * `HOME` - Current user's home directory.
-
-* `VAR_NAME='value' will set a shell variable.
-  The shell variable is only available in the current session.
-* `export VAR_NAME` will turn the shell variable into an environmental
-  variable. 
-* `export -n VAR_NAME` will change it back into a shell variable
 
 ##### Login vs Non-Login
 * A login session attempt to read from `~/.bash_profile`, `~/.bash_login`,
