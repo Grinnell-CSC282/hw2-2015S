@@ -18,7 +18,8 @@ Viewing and modifying environmental variables from a bash script is basically
 the same as from command line.
 
 ### Get
-  `echo $*`, _for instance_ `echo $EDITOR`
+  `echo $*`  
+ _Example:_ `echo $EDITOR`
 
 ### Set
  `export VAR="new_var"`  
