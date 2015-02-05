@@ -19,6 +19,10 @@ markdown header.
                 ||     ||
 `
 
->! Spoiler text Solution: `cowsay "hello world`
+Spoiler
+<div id="spoiler" style="display:none"> 
+`cowsay "hello world"
+</div> 
+<button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
 
 Delete every third word in a text file.
