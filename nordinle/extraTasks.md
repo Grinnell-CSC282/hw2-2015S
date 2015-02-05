@@ -8,7 +8,7 @@ with an appropriately sized
 markdown header.
 
 Solution:
-¯\_(ツ)_/¯ 
+`¯\_(ツ)_/¯` 
 
 2. Print this to stdout with one line of code and no artistic ability.
 ```
