@@ -7,8 +7,7 @@ Wesley Pollock
 * Redid my previous homework in markdown for practice.
 * Now I'm writing this.
 
-####2. Learn about how you set and get environment variables. Put your
-     explanations in your personal directory for the assignment.
+####2. Learn about how you set and get environment variables.
 A quick discription of environment variables (found
      [here](http://www.ee.surrey.ac.uk/Teaching/Unix/unix8.html)):
 
@@ -25,30 +24,30 @@ A quick discription of environment variables (found
  significance, and those set at login are valid for the duration of the
  session. By convention, environment variables have UPPER CASE and shell
  variables have lower case names. 
+
 * `printenv`- Prints the current values for environment variables. 
   You can print the value of specific variables. For example, `printenv
  SHELL`.
 * `env` - Lets you change the environment that programs run in.
 * `set` - Allows you to read and write variables.
-
-#####List of Common Environmental and Shell Variables  
-This list was copied from
-[here](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps).
-
-          * `SHELL` - The shell that will be interpreting commands.
-          * `TERM` - Type of terminal to emulate when running the shell.
-          * `USER` - Current logged in user.
-          * `PWD` - Current working directory.
-          * `OLDPWD` - Previous working directory.
-          * `MAIL` - Current user's mailbox.
-          * `PATH` - List of directories that the system will check when looking for commands.
-          * `HOME` - Current user's home directory.
-
-* `VAR_NAME='value' will set a shell variable.
+* `VAR_NAME=value` will set a shell variable.
   The shell variable is only available in the current session.
 * `export VAR_NAME` will turn the shell variable into an environmental
   variable. 
 * `export -n VAR_NAME` will change it back into a shell variable
+
+#####List of Common Environmental and Shell Variables    
+This list was copied from
+[here](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps).
+
+* `SHELL` - The shell that will be interpreting commands.
+* `TERM` - Type of terminal to emulate when running the shell.
+* `USER` - Current logged in user.
+* `PWD` - Current working directory.
+* `OLDPWD` - Previous working directory.
+* `MAIL` - Current user's mailbox.
+* `PATH` - Directories systems checks for commands.
+* `HOME` - Current user's home directory.
 
 ##### Login vs Non-Login
 * A login session attempt to read from `~/.bash_profile`, `~/.bash_login`,
@@ -57,10 +56,8 @@ and then `~/.profile`
 `~/.bashrc`
   You can define user-specific environemntal variables, available in both
   login and non-login shells, in the `~/.bashrc` file:
-        * `export VAR_NAME=value` - will set the environmental variable.
-        * `source ~/.bashrc` - will make the current session read the file
-        to apply changes. 
-            
-####3. Come up with two or three tasks, similar to those we did for assignment 1, and put notes about them in the tasks directory. (You can include some sample solutions in your file.)
+  * `export VAR_NAME=value` - will set the environmental variable.
+  * `source ~/.bashrc` - will make the current session read the file to apply changes. 
+
 
 

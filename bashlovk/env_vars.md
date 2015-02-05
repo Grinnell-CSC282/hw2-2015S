@@ -8,21 +8,29 @@
   * Print out individual variables
     * `echo $*`  
     _Example:_ `echo $PATH`
+
 ### Set
    * `export VAR="new_var"`  
    _Example:_ `export MAIL="grinnell@grinnell.edu"`
+
 ## Using Bash
 Viewing and modifying environmental variables from a bash script is basically
 the same as from command line.
+
 ### Get
-  `echo $*`, _for instance_ `echo $EDITOR`
+  `echo $*`  
+ _Example:_ `echo $EDITOR`
+
 ### Set
  `export VAR="new_var"`  
  _Example:_ `export PATH=$PATH:/opt/bin:/usr/local/bin:$HOME/bin`
+
 ## Using C
+
 ### Get
 Use [**getenv**][getenv man], for instance:  
 `char * env_var = getenv("LANG");`
+
 ### Set
 Use [**setenv**][setenv man], for instance:  
 `setenv ("EDITOR", "vim", 1);`

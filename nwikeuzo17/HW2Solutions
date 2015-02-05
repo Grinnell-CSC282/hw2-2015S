@@ -1,0 +1,23 @@
+2. 
+For Command Line:
+
+Set: The syntax is:
+export var=value
+Another method is the setenv command
+
+Get: To get the values of all the environment variables and functions, we can use the env or printenv commands.
+
+For Bash:
+
+Set: The syntax is: VARNAME="value"; export VARNAME
+
+Get: We can use the printenv command
+
+For C:
+
+Get: We can use the getenv command with the syntax - char * getenv (const char *name). When dealing with libraries, the secure_getenv command should be used to avoid unintended use of untrusted environment variables.
+
+Sources: 
+http://www.cyberciti.biz/faq/set-environment-variable-unix/
+http://how-to.wikia.com/wiki/How_to_set,_print,_or_list_environment_variables
+http://www.gnu.org/software/libc/manual/html_node/Environment-Access.html#Environment-Access
