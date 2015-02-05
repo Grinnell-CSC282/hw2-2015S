@@ -11,7 +11,7 @@ Solution:
 ¯\_(ツ)_/¯ 
 
 2. Print this to stdout with one line of code and no artistic ability.
-`
+```
  _____________ 
 < hello world >
  ------------- 
@@ -20,7 +20,7 @@ Solution:
             (__)\       )\/\
                 ||----w |
                 ||     ||
-`
+```
 Solution:
 `cowsay "hello world"`
 
