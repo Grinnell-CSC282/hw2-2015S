@@ -1,5 +1,5 @@
 ###Environment Variables written in Markdown
-!()[http://files.cyberciti.biz/cbzcache/3rdparty/terminal.png]
+![](http://files.cyberciti.biz/cbzcache/3rdparty/terminal.png)
 
 #####Def:
 *environment variable: * an environment variable 
