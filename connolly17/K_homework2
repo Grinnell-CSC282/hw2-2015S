@@ -1,0 +1,36 @@
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+printf("this is a statement\n");
+printf("The LANG for env is \n %s\n", getenv("LANG"));
+printf("The PATH for env is \n %s\n", getenv("PATH"));
+printf("The editor for env is \n %s\n", getenv("EDITOR"));
+
+// printf("The secure string for env is \n %s\n", secure_getenv("c"));
+// It seems that secure_getenv is unsupported?
+// This wouldn't make sense given that it's listed in the manual.
+
+// printf("The secure string for env is \n %s\n", secure_getenv("gnu"));
+//secure_getenv("name");
+return 0;
+}
+
+Environment variables
+=====================
+Subheading 1, as in markdown text:
+----------------------------------
+According to the GNU website, environment variables are accessed by the C program similarly to how argc/
+argv arguments are supplied.
+Environment variables are used for information about the locale (home directory, terminal type, etc.)
+Additional variables can be defined.
+Set of all environment variables with values = the "environment."
+"getenv" in C returns a string with value of environment variable "name."
+"Environment variables, sometimes called shell variables, are usually set with the export command in the
+shell. (This section assumes you are using the GNU Bash shell.) Standard environment variables are used
+for information about your home directory, terminal type, and so on; you can define additional variables
+for other purposes. The set of all environment variables that have values is collectively known as the
+environment." -- [link](http://crasseux.com/books/ctutorial/Environment-variables.html)
+I can't understand this. It doesn't make sense.
