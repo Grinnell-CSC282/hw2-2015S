@@ -1,5 +1,5 @@
 Here are some simple tasks:
-i)  To rename a file, we can use the mv command, which can also serve to move a file. To rename a file, 
+i)  To rename a file, we can use the mv command, which can also serve to move a file. To rename a file,   
     the syntax would be mv filename newfilename, where filename is the current file name and newfilename is the new name. 
     To move a file into a new directory, the syntax would be mv filename newdirectory, where newdirectory is the directory 
     the file is to be moved to.
