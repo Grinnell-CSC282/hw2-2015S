@@ -7,6 +7,9 @@
 with an appropriately sized 
 markdown header.
 
+Solution:
+¯\_(ツ)_/¯ 
+
 2. Print this to stdout with one line of code and no artistic ability.
 `
  _____________ 
@@ -18,11 +21,10 @@ markdown header.
                 ||----w |
                 ||     ||
 `
-
-Spoiler
-<div id="spoiler" style="display:none"> 
-`cowsay "hello world"
-</div> 
-<button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
+Solution:
+`cowsay "hello world"`
 
 Delete every third word in a text file.
+
+Solution: I can think of how one could do this with C but I know of no 
+unix utils to do it.
